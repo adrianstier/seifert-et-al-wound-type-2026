@@ -1,0 +1,7 @@
+Species,Outcome,N,Method,Status,Uniformity_p,Dispersion_p,Outliers_p,Pass
+Porites spp.,Coenosarc Coverage,206,Penalized GLMM (weakly-informative Normal prior),Success,0.538148102097882,0.048,1,FALSE
+Porites spp.,Polyps in Center of Wound,206,Penalized GLMM (weakly-informative Normal prior),Success,0.43955662014862973,0,1,FALSE
+Porites spp.,Algal Plug,206,Penalized GLMM (weakly-informative Normal prior),Success,0.40195602940802955,0.274,1,TRUE
+Porites spp.,Pink,200,Standard GLMM,Success,0.7824984592121591,0.462,1,TRUE
+Porites spp.,RFP,204,Penalized GLMM (weakly-informative Normal prior),Success,0.3637186069616828,0.002,1,FALSE
+Porites spp.,Yellow Aggregations,204,Penalized GLMM (weakly-informative Normal prior),Success,0.6571175607349535,0.036,1,FALSE

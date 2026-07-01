@@ -1,0 +1,53 @@
+Species: Porites spp. 
+Outcome: RFP 
+Method: Penalized GLMM (weakly-informative Normal prior) 
+N observations: 204 
+N corals: 15 
+
+ Family: binomial  ( logit )
+Formula:          value ~ treatment_label * ns(day_c, 3) + (1 | id)
+Data: dat_outcome
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+    225.1     268.2     -99.5     199.1       191 
+
+Random effects:
+
+Conditional model:
+ Groups Name        Variance Std.Dev.
+ id     (Intercept) 0.01335  0.1155  
+Number of obs: 204, groups:  id, 15
+
+Conditional model:
+                                             Estimate Std. Error z value
+(Intercept)                                   -2.5335     0.6027  -4.204
+treatment_labelDremel                          0.4327     0.7371   0.587
+treatment_labelAirbrush-Dremel                -0.9832     0.8709  -1.129
+ns(day_c, 3)1                                  3.4065     1.2438   2.739
+ns(day_c, 3)2                                  8.2495     1.6173   5.101
+ns(day_c, 3)3                                 -0.7561     0.8561  -0.883
+treatment_labelDremel:ns(day_c, 3)1           -7.2794     1.7509  -4.158
+treatment_labelAirbrush-Dremel:ns(day_c, 3)1   1.1757     1.9184   0.613
+treatment_labelDremel:ns(day_c, 3)2           -2.8669     2.0363  -1.408
+treatment_labelAirbrush-Dremel:ns(day_c, 3)2   4.0627     2.3381   1.738
+treatment_labelDremel:ns(day_c, 3)3           -3.8619     1.4721  -2.623
+treatment_labelAirbrush-Dremel:ns(day_c, 3)3  -1.3051     1.3289  -0.982
+                                             Pr(>|z|)    
+(Intercept)                                  2.63e-05 ***
+treatment_labelDremel                         0.55717    
+treatment_labelAirbrush-Dremel                0.25892    
+ns(day_c, 3)1                                 0.00617 ** 
+ns(day_c, 3)2                                3.38e-07 ***
+ns(day_c, 3)3                                 0.37718    
+treatment_labelDremel:ns(day_c, 3)1          3.22e-05 ***
+treatment_labelAirbrush-Dremel:ns(day_c, 3)1  0.53995    
+treatment_labelDremel:ns(day_c, 3)2           0.15916    
+treatment_labelAirbrush-Dremel:ns(day_c, 3)2  0.08229 .  
+treatment_labelDremel:ns(day_c, 3)3           0.00870 ** 
+treatment_labelAirbrush-Dremel:ns(day_c, 3)3  0.32604    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Priors:
+fixef ~ normal(0, 3) 
+fixef((Intercept)) ~ normal(0, 10) 

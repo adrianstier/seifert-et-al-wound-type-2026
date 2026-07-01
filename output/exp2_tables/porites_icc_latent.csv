@@ -1,0 +1,7 @@
+Outcome,Method,N_obs,N_colonies,Var_id_latent,ICC_latent
+Coenosarc Coverage,Penalized GLMM (weakly-informative Normal prior),206,15,4.689195730564242,0.5876874543601265
+Polyps in Center of Wound,Penalized GLMM (weakly-informative Normal prior),206,15,2.0326056276699522,0.38189115039397287
+Algal Plug,Penalized GLMM (weakly-informative Normal prior),206,15,1.3204749957143747,0.2864157739780039
+Yellow Aggregations,Penalized GLMM (weakly-informative Normal prior),206,15,0.5958200997236597,0.15333708314504418
+Pink,Standard GLMM,206,15,1.9717740157695045,0.37474498640498277
+RFP,Penalized GLMM (weakly-informative Normal prior),206,15,0.010316110587045187,0.0031259195921908033

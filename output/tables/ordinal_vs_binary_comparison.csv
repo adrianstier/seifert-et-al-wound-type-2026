@@ -1,0 +1,4 @@
+term,ordinal_OR,ordinal_CI,ordinal_p,binary_match,binary_OR,binary_CI,binary_p
+treatmentdremel,2.96,1.55-5.66,9.97e-4,Dremel vs Airbrush,25.96,3.33-202.44,0.00189
+speciespocillopora,0.48,0.23-1.03,0.0593,Pocillopora vs Acropora,0.2,0.04-0.97,0.0458
+speciesporites,0.53,0.25-1.14,0.106,Porites vs Acropora,0.46,0.13-1.66,0.236

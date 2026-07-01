@@ -1,0 +1,14 @@
+column,units,notes
+species,NA,"acropora, pocillopora, porites"
+treatment,NA,Describes the method of wounding tissue such as airbrush or dremel
+coral_id,NA,Coral number arbitrarily given to each colony for identification and either a (airbrush) or b (dremel) to indicate wounding treatment. All numbers represent paired colony fragments
+day,day,Time in days-post-wound
+regenerated,yes/no,Complete regeneration of polyps and coenosarc across the entire wound bed
+healed,yes/no,"If the wound showed characteristics of healing such as polyps or coenosarc regaining pigment. Healing is described as no (no coloration changes from previous image), incomplete (outer borders show pigment but center is not fully healed), or yes (wound area shows complete pigment recovery)"
+debris,NA,If debris of any kind. is present in the wounded area it is denoted as either yes (present) or no (absent)
+notes,NA,comments
+use_image,NA,comments on if an image is exceptionally representative
+,,
+,,
+,,"Rescore as yes/no, make a new column if it seems useful"
+,,regen_05152026: polyps and coenosarc across the entire of the wound bed

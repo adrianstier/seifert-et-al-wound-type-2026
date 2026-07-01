@@ -1,0 +1,7 @@
+Species,Outcome,N_Obs,N_Corals,Method,N_Interactions,N_Sig_Interactions,Joint_Interaction_P,Joint_Method,Joint_Stat,Joint_DF,Secondary_Min_Wald_P,Status
+Porites spp.,Coenosarc Coverage,206,15,Penalized GLMM (weakly-informative Normal prior),6,1,0.05818362078312429,"Joint Wald, 6 df (penalized)",12.174671954061155,6,0.006132916359883719,Success
+Porites spp.,Polyps in Center of Wound,206,15,Penalized GLMM (weakly-informative Normal prior),6,1,0.011984506442503422,"Joint Wald, 6 df (penalized)",16.351956226341784,6,0.0033395438655827833,Success
+Porites spp.,Algal Plug,206,15,Penalized GLMM (weakly-informative Normal prior),6,0,0.5806952106030657,"Joint Wald, 6 df (penalized)",4.71618355944519,6,0.20631341185711558,Success
+Porites spp.,Pink,200,15,Standard GLMM,6,1,6.918319419676957e-6,"LRT, 6 df",33.93705266245399,6,0.02112562958413865,Success
+Porites spp.,RFP,204,15,Penalized GLMM (weakly-informative Normal prior),6,2,1.4672500719120965e-6,"Joint Wald, 6 df (penalized)",37.40619553747025,6,3.216018713993093e-5,Success
+Porites spp.,Yellow Aggregations,204,15,Penalized GLMM (weakly-informative Normal prior),6,1,0.0208795165059984,"Joint Wald, 6 df (penalized)",14.921077519321479,6,0.011860266563702392,Success

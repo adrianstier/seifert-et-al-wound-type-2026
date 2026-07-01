@@ -1,0 +1,2 @@
+logLik,AIC,n_obs,n_parent,re_structure
+-139.602644680486,293.205289360972,151,11,(1|parent_id/coral_id)

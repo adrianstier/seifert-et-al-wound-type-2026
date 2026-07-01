@@ -1,0 +1,79 @@
+section,outcome,model,term,n,estimate,estimate_type,ci_lower,ci_upper,effect_pct,fold_change,test_stat,df,p_value,p_formatted,notes
+Sample size,design,Descriptive,Parent colonies (total),11,11,count,NA,NA,NA,NA,NA,NA,NA,NA,Each parent split into airbrush + scrape fragments (paired design)
+Sample size,design,Descriptive,Coral fragments (total),22,22,count,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sample size,design,Descriptive,Acropora parent colonies,5,5,count,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sample size,design,Descriptive,Pocillopora parent colonies,3,3,count,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sample size,design,Descriptive,Porites parent colonies,3,3,count,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sample size,design,Descriptive,Photographic timepoints per fragment,7,7,count,NA,NA,NA,NA,NA,NA,NA,NA,"days = 0, 3, 8, 13, 18, 23, 28"
+Sample size,healed,Descriptive,Observations with non-NA healed,151,151,count,NA,NA,NA,NA,NA,NA,NA,NA,3 NA from photo errors
+Sample size,regenerated,Descriptive,Observations with non-NA regenerated,154,154,count,NA,NA,NA,NA,NA,NA,NA,NA,6 NA from images where polyp structure could not be assessed
+Observed counts,debris,Descriptive,Airbrush fragments with algae/debris at any timepoint,11,11,count of fragments,NA,NA,NA,NA,NA,NA,NA,NA,11 / 11 = 100%
+Observed counts,debris,Descriptive,Dremel fragments with algae/debris at any timepoint,11,4,count of fragments,NA,NA,NA,NA,NA,NA,NA,NA,4 / 11 = 36%
+Observed counts,healed,Descriptive,Airbrush fragments fully healed at day 28,11,1,count of fragments,NA,NA,9.091,NA,NA,NA,NA,NA,1 / 11 = 9%
+Observed counts,healed,Descriptive,Dremel fragments fully healed at day 28,10,8,count of fragments,NA,NA,80,NA,NA,NA,NA,NA,8 / 10 = 80%
+Observed counts,regenerated,Descriptive,Airbrush fragments with polyp regeneration at any timepoint,11,1,count of fragments,NA,NA,9.091,NA,NA,NA,NA,NA,1 / 11 = 9%
+Observed counts,regenerated,Descriptive,Dremel fragments with polyp regeneration at any timepoint,11,9,count of fragments,NA,NA,81.82,NA,NA,NA,NA,NA,9 / 11 = 82%
+Model comparison,healed,Binomial GLMM,Treatment × Species interaction,NA,3.553,χ²,NA,NA,NA,NA,3.553,2,0.169,0.169,"anova(mod_add, mod_int); additive preferred if NS"
+Main effects,healed,Binomial GLMM (additive),treatment,NA,16.25,χ²,NA,NA,NA,NA,16.25,1,5.56e-5,<0.001,drop1(mod_add)
+Main effects,healed,Binomial GLMM (additive),species,NA,4.803,χ²,NA,NA,NA,NA,4.803,2,0.0906,0.091,drop1(mod_add)
+Fixed-effect ORs,healed,Binomial GLMM (additive),Dremel vs Airbrush,NA,25.96,OR,3.328,202.4,2496,25.96,NA,NA,0.00189,0.002,"SUPPORTING (timepoint-level, pseudoreplicated; singular RE, temporal autocorrelation). Primary = fragment-level (exp1_fragment_level_primary.csv). For healed, lead with the Firth row (separation-robust)."
+Fixed-effect ORs,healed,Binomial GLMM (additive),Pocillopora vs Acropora,NA,0.1957,OR,0.03949,0.9703,-80.43,0.1957,NA,NA,0.0458,0.046,"SUPPORTING (timepoint-level, pseudoreplicated; singular RE, temporal autocorrelation). Primary = fragment-level (exp1_fragment_level_primary.csv). For healed, lead with the Firth row (separation-robust)."
+Fixed-effect ORs,healed,Binomial GLMM (additive),Porites vs Acropora,NA,0.4622,OR,0.1289,1.657,-53.78,0.4622,NA,NA,0.236,0.236,"SUPPORTING (timepoint-level, pseudoreplicated; singular RE, temporal autocorrelation). Primary = fragment-level (exp1_fragment_level_primary.csv). For healed, lead with the Firth row (separation-robust)."
+Cell probabilities,healed,Binomial GLMM (additive),acropora × airbrush,NA,0.02041,Pr(healed),0.002806,0.1337,2.041,NA,NA,NA,NA,NA,"marginal probability, emmeans response scale"
+Cell probabilities,healed,Binomial GLMM (additive),pocillopora × airbrush,NA,0.004062,Pr(healed),3.558e-4,0.04466,0.4062,NA,NA,NA,NA,NA,"marginal probability, emmeans response scale"
+Cell probabilities,healed,Binomial GLMM (additive),porites × airbrush,NA,0.009538,Pr(healed),0.001051,0.08103,0.9538,NA,NA,NA,NA,NA,"marginal probability, emmeans response scale"
+Cell probabilities,healed,Binomial GLMM (additive),acropora × dremel,NA,0.351,Pr(healed),0.2141,0.5178,35.1,NA,NA,NA,NA,NA,"marginal probability, emmeans response scale"
+Cell probabilities,healed,Binomial GLMM (additive),pocillopora × dremel,NA,0.09573,Pr(healed),0.02406,0.3126,9.573,NA,NA,NA,NA,NA,"marginal probability, emmeans response scale"
+Cell probabilities,healed,Binomial GLMM (additive),porites × dremel,NA,0.2,Pr(healed),0.07707,0.428,20,NA,NA,NA,NA,NA,"marginal probability, emmeans response scale"
+Contrast: treatment within species,healed,Binomial GLMM (additive),acropora: dremel vs airbrush,NA,0.3306,Δ probability,0.173,0.4882,33.06,NA,NA,NA,3.92e-5,<0.001,Dremel − Airbrush; emmeans response scale
+Contrast: treatment within species,healed,Binomial GLMM (additive),pocillopora: dremel vs airbrush,NA,0.09167,Δ probability,-0.02943,0.2128,9.167,NA,NA,NA,0.138,0.138,Dremel − Airbrush; emmeans response scale
+Contrast: treatment within species,healed,Binomial GLMM (additive),porites: dremel vs airbrush,NA,0.1904,Δ probability,0.02205,0.3588,19.04,NA,NA,NA,0.0266,0.027,Dremel − Airbrush; emmeans response scale
+Contrast: species within treatment,healed,Binomial GLMM (additive),airbrush: acropora vs pocillopora,NA,0.01635,Δ probability,-0.02334,0.05604,1.635,NA,NA,NA,0.599,0.599,Tukey-adjusted; emmeans response scale
+Contrast: species within treatment,healed,Binomial GLMM (additive),airbrush: acropora vs porites,NA,0.01087,Δ probability,-0.01996,0.0417,1.087,NA,NA,NA,0.687,0.687,Tukey-adjusted; emmeans response scale
+Contrast: species within treatment,healed,Binomial GLMM (additive),airbrush: pocillopora vs porites,NA,-0.005476,Δ probability,-0.02425,0.0133,-0.5476,NA,NA,NA,0.773,0.773,Tukey-adjusted; emmeans response scale
+Contrast: species within treatment,healed,Binomial GLMM (additive),dremel: acropora vs pocillopora,NA,0.2553,Δ probability,0.01702,0.4935,25.53,NA,NA,NA,0.0323,0.032,Tukey-adjusted; emmeans response scale
+Contrast: species within treatment,healed,Binomial GLMM (additive),dremel: acropora vs porites,NA,0.151,Δ probability,-0.126,0.428,15.1,NA,NA,NA,0.408,0.408,Tukey-adjusted; emmeans response scale
+Contrast: species within treatment,healed,Binomial GLMM (additive),dremel: pocillopora vs porites,NA,-0.1042,Δ probability,-0.3617,0.1532,-10.42,NA,NA,NA,0.609,0.609,Tukey-adjusted; emmeans response scale
+Diagnostics,healed,Binomial GLMM (additive),AIC,NA,99.35,AIC,NA,NA,NA,NA,NA,NA,NA,NA,lower is better
+Diagnostics,healed,Binomial GLMM (interaction),AIC,NA,99.8,AIC,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Diagnostics,healed,Binomial GLMM (additive),Marginal R²,NA,NA,R² (marginal),NA,NA,NA,NA,NA,NA,NA,NA,fixed effects only
+Diagnostics,healed,Binomial GLMM (additive),Conditional R²,NA,NA,R² (conditional),NA,NA,NA,NA,NA,NA,NA,NA,fixed + random
+Diagnostics,healed,Binomial GLMM (additive),Singular fit,NA,1,logical,NA,NA,NA,NA,NA,NA,NA,NA,TRUE — RE variances ≈ 0
+Diagnostics,healed,Binomial GLMM (additive),Overdispersion,NA,1.107,ratio,NA,NA,NA,NA,NA,NA,NA,NA,Pearson; ~1 = OK
+Model comparison,regenerated,Binomial GLMM,Treatment × Species interaction,NA,2.073,χ²,NA,NA,NA,NA,2.073,2,0.355,0.355,"anova(mod_regen_add, mod_regen_int)"
+Main effects,regenerated,Binomial GLMM (additive),treatment,NA,31.79,χ²,NA,NA,NA,NA,31.79,1,1.72e-8,<0.001,drop1(mod_regen_add)
+Main effects,regenerated,Binomial GLMM (additive),species,NA,14.13,χ²,NA,NA,NA,NA,14.13,2,8.53e-4,<0.001,drop1(mod_regen_add)
+Fixed-effect ORs,regenerated,Binomial GLMM (additive),Dremel vs Airbrush,NA,81.34,OR,10.53,628.1,8034,81.34,NA,NA,2.47e-5,<0.001,"SUPPORTING (timepoint-level, pseudoreplicated); CI width reflects near-separation in airbrush group. Primary = fragment-level (exp1_fragment_level_primary.csv)."
+Fixed-effect ORs,regenerated,Binomial GLMM (additive),Pocillopora vs Acropora,NA,0.07415,OR,0.01502,0.3661,-92.58,0.07415,NA,NA,0.00141,0.001,"SUPPORTING (timepoint-level, pseudoreplicated); CI width reflects near-separation in airbrush group. Primary = fragment-level (exp1_fragment_level_primary.csv)."
+Fixed-effect ORs,regenerated,Binomial GLMM (additive),Porites vs Acropora,NA,1.076,OR,0.3713,3.12,7.64,1.076,NA,NA,0.892,0.892,"SUPPORTING (timepoint-level, pseudoreplicated); CI width reflects near-separation in airbrush group. Primary = fragment-level (exp1_fragment_level_primary.csv)."
+Cell probabilities,regenerated,Binomial GLMM (additive),acropora × airbrush,NA,0.0169,Pr(regenerated),0.002274,0.1148,1.69,NA,NA,NA,NA,NA,"marginal probability, emmeans response scale"
+Cell probabilities,regenerated,Binomial GLMM (additive),acropora × dremel,NA,0.5831,Pr(regenerated),0.4188,0.7308,58.31,NA,NA,NA,NA,NA,"marginal probability, emmeans response scale"
+Cell probabilities,regenerated,Binomial GLMM (additive),pocillopora × airbrush,NA,0.001273,Pr(regenerated),1.063e-4,0.01506,0.1273,NA,NA,NA,NA,NA,"marginal probability, emmeans response scale"
+Cell probabilities,regenerated,Binomial GLMM (additive),pocillopora × dremel,NA,0.09396,Pr(regenerated),0.02363,0.3077,9.396,NA,NA,NA,NA,NA,"marginal probability, emmeans response scale"
+Cell probabilities,regenerated,Binomial GLMM (additive),porites × airbrush,NA,0.01817,Pr(regenerated),0.002305,0.1291,1.817,NA,NA,NA,NA,NA,"marginal probability, emmeans response scale"
+Cell probabilities,regenerated,Binomial GLMM (additive),porites × dremel,NA,0.6009,Pr(regenerated),0.3905,0.7796,60.09,NA,NA,NA,NA,NA,"marginal probability, emmeans response scale"
+Diagnostics,regenerated,Binomial GLMM (additive),AIC,NA,111.1,AIC,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Diagnostics,regenerated,Binomial GLMM (additive),Marginal R²,NA,0.6551,R² (marginal),NA,NA,NA,NA,NA,NA,NA,NA,NA
+Diagnostics,regenerated,Binomial GLMM (additive),Conditional R²,NA,0.6551,R² (conditional),NA,NA,NA,NA,NA,NA,NA,NA,NA
+Diagnostics,regenerated,Binomial GLMM (additive),Singular fit,NA,1,logical,NA,NA,NA,NA,NA,NA,NA,NA,TRUE
+Diagnostics,regenerated,Binomial GLMM (additive),Overdispersion,NA,0.9458,ratio,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Sensitivity (Firth),healed,Firth-penalized logistic (brglm2),Dremel vs Airbrush,NA,17.3,OR,3.219,92.97,1630,17.3,NA,NA,8.92e-4,<0.001,"SUPPORTING (timepoint-level), separation-robust; profile-likelihood CI; fixed-effects only (RE variance ≈ 0 in main GLMM). For healed this Firth row LEADS the supporting reporting. Primary = fragment-level (exp1_fragment_level_primary.csv)."
+Sensitivity (Firth),healed,Firth-penalized logistic (brglm2),Pocillopora vs Acropora,NA,0.2355,OR,0.0536,1.035,-76.45,0.2355,NA,NA,0.0555,0.056,"SUPPORTING (timepoint-level), separation-robust; profile-likelihood CI; fixed-effects only (RE variance ≈ 0 in main GLMM). For healed this Firth row LEADS the supporting reporting. Primary = fragment-level (exp1_fragment_level_primary.csv)."
+Sensitivity (Firth),healed,Firth-penalized logistic (brglm2),Porites vs Acropora,NA,0.498,OR,0.1454,1.706,-50.2,0.498,NA,NA,0.267,0.267,"SUPPORTING (timepoint-level), separation-robust; profile-likelihood CI; fixed-effects only (RE variance ≈ 0 in main GLMM). For healed this Firth row LEADS the supporting reporting. Primary = fragment-level (exp1_fragment_level_primary.csv)."
+Sensitivity (Firth),regenerated,Firth-penalized logistic (brglm2),Dremel vs Airbrush,NA,52.21,OR,9.689,281.4,5121,52.21,NA,NA,4.17e-6,<0.001,"SUPPORTING (timepoint-level), separation-robust; profile-likelihood CI; fixed-effects only (RE variance ≈ 0 in main GLMM). For healed this Firth row LEADS the supporting reporting. Primary = fragment-level (exp1_fragment_level_primary.csv)."
+Sensitivity (Firth),regenerated,Firth-penalized logistic (brglm2),Pocillopora vs Acropora,NA,0.0914,OR,0.02064,0.4048,-90.86,0.0914,NA,NA,0.00163,0.002,"SUPPORTING (timepoint-level), separation-robust; profile-likelihood CI; fixed-effects only (RE variance ≈ 0 in main GLMM). For healed this Firth row LEADS the supporting reporting. Primary = fragment-level (exp1_fragment_level_primary.csv)."
+Sensitivity (Firth),regenerated,Firth-penalized logistic (brglm2),Porites vs Acropora,NA,1.07,OR,0.3764,3.045,7.048,1.07,NA,NA,0.898,0.898,"SUPPORTING (timepoint-level), separation-robust; profile-likelihood CI; fixed-effects only (RE variance ≈ 0 in main GLMM). For healed this Firth row LEADS the supporting reporting. Primary = fragment-level (exp1_fragment_level_primary.csv)."
+External: Exp 3,Single-polyp regeneration timing,Qualitative (n needle ablations),[Porites] Time to regeneration,NA,NA,days,NA,NA,NA,NA,NA,NA,NA,NA,Individual polyps regenerate by day 10 regardless of position (apex vs base). Polyp regeneration occurs ~7 days after coenosarc coverage. Source: manuscript draft 2026-02-16.
+External: Exp 4,Histology — scrape D2,Qualitative (n=40 fragments from 10 bommies),[Porites] Cellular state,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Source: manuscript draft 2026-02-16. Day 2 post-injury.
+External: Exp 4,Histology — scrape D7,Qualitative,[Porites] Cellular state,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Source: manuscript draft 2026-02-16.
+External: Exp 4,Histology — airbrush D2,Qualitative,[Porites] Cellular state,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Source: manuscript draft 2026-02-16.
+External: Exp 4,Histology — airbrush D7-D21,Qualitative,[Porites] Cellular state,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Source: manuscript draft 2026-02-16.
+"Primary (fragment-level, n=22)",regenerated,Firth penalized logistic (logistf),Dremel vs Airbrush (treatment),22,103.7,OR,5.79,32520,10270,103.7,NA,NA,2.12e-4,<0.001,PRIMARY estimate: profile-likelihood CI; drops parent RE (separation-robust)
+"Primary (fragment-level, n=22)",regenerated,glmer (1|parent_id) [SEPARATION: OR at boundary],Dremel vs Airbrush (treatment),22,4252e15,OR,0,Inf,4252e17,4252e15,NA,NA,1.13e-5,<0.001,"Fragment-level GLMM; OR Wald CI, p via drop1 LRT (reported alongside Firth)"
+"Primary (fragment-level, n=22)",regenerated,Paired exact McNemar (within-parent),Scrape-only vs Airbrush-only discordant pairs,11,NA,exact p (paired/Fisher),NA,NA,NA,NA,NA,NA,0.00781,0.008,PRIMARY confirmatory (pseudoreplication-free): 8 discordant (scrape-only) vs 0 (airbrush-only)
+"Primary (fragment-level, n=22)",healed,Firth penalized logistic (logistf),Dremel vs Airbrush (treatment),22,19.82,OR,2.652,284.3,1882,19.82,NA,NA,0.00229,0.002,PRIMARY estimate: profile-likelihood CI; drops parent RE (separation-robust)
+"Primary (fragment-level, n=22)",healed,glmer (1|parent_id) [SEPARATION: OR at boundary],Dremel vs Airbrush (treatment),22,4572000000,OR,8.345e-31,2505e46,457199999900,4572000000,NA,NA,1.86e-5,<0.001,"Fragment-level GLMM; OR Wald CI, p via drop1 LRT (reported alongside Firth)"
+"Primary (fragment-level, n=22)",healed,Paired exact McNemar (within-parent),Scrape-only vs Airbrush-only discordant pairs,11,NA,exact p (paired/Fisher),NA,NA,NA,NA,NA,NA,0.0156,0.016,PRIMARY confirmatory (pseudoreplication-free): 7 discordant (scrape-only) vs 0 (airbrush-only)
+"Primary (fragment-level, n=22)",healed,Per-species day-28 Fisher exact,acropora: scrape vs airbrush (healed yes),10,Inf,OR,NA,NA,Inf,Inf,NA,NA,0.00794,0.008,CONFIRMATION (model-free): airbrush 0/5 vs scrape 5/5 healed
+"Primary (fragment-level, n=22)",healed,Per-species day-28 Fisher exact,pocillopora: scrape vs airbrush (healed yes),6,Inf,OR,NA,NA,Inf,Inf,NA,NA,1,1.000,CONFIRMATION (model-free): airbrush 0/3 vs scrape 1/3 healed
+"Primary (fragment-level, n=22)",healed,Per-species day-28 Fisher exact,porites: scrape vs airbrush (healed yes),5,Inf,OR,NA,NA,Inf,Inf,NA,NA,0.4,0.400,CONFIRMATION (model-free): airbrush 1/3 vs scrape 2/2 healed

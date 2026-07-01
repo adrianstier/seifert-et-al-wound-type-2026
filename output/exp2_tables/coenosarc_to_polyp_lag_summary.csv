@@ -1,0 +1,5 @@
+treatment,n,median_lag,iqr_low,iqr_high,min_lag,max_lag,mean_lag,sd_lag
+ALL,12,9,7,12,0,21,9.166666666666666,5.859465277082315
+air_drem,3,7,7,7,7,7,7,0
+airbrush,4,10.5,5.25,15.75,0,21,10.5,9.03696114115064
+dremel,5,12,11,12,0,12,9.4,5.272570530585627

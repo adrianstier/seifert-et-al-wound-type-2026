@@ -1,0 +1,4 @@
+species,airbrush_yes,airbrush_n,dremel_yes,dremel_n,OR,p_value
+acropora,0,5,5,5,Inf,0.007936507936507943
+pocillopora,0,3,1,3,Inf,1
+porites,1,3,2,2,Inf,0.39999999999999997

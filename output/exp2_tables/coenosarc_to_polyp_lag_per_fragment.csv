@@ -1,0 +1,13 @@
+id,treatment,first_coenosarc_day,first_polyp_day,lag_days
+13,air_drem,35,42,7
+18,air_drem,28,35,7
+19,air_drem,21,28,7
+5,airbrush,28,42,14
+6,airbrush,56,56,0
+7,airbrush,28,49,21
+9,airbrush,42,49,7
+1,dremel,2,14,12
+10,dremel,3,14,11
+12,dremel,14,14,0
+2,dremel,2,14,12
+4,dremel,2,14,12

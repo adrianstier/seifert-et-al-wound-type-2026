@@ -1,0 +1,10 @@
+outcome,model,term,OR,ci_lower,ci_upper,p_value,n,method
+regenerated,Firth penalized logistic (logistf),Dremel vs Airbrush (treatment),103.7,5.79,32520,2.12e-4,22,PRIMARY estimate: profile-likelihood CI; drops parent RE (separation-robust)
+regenerated,glmer (1|parent_id) [SEPARATION: OR at boundary],Dremel vs Airbrush (treatment),4252e15,0,Inf,1.13e-5,22,"Fragment-level GLMM; OR Wald CI, p via drop1 LRT (reported alongside Firth)"
+regenerated,Paired exact McNemar (within-parent),Scrape-only vs Airbrush-only discordant pairs,NA,NA,NA,0.00781,11,PRIMARY confirmatory (pseudoreplication-free): 8 discordant (scrape-only) vs 0 (airbrush-only)
+healed,Firth penalized logistic (logistf),Dremel vs Airbrush (treatment),19.82,2.652,284.3,0.00229,22,PRIMARY estimate: profile-likelihood CI; drops parent RE (separation-robust)
+healed,glmer (1|parent_id) [SEPARATION: OR at boundary],Dremel vs Airbrush (treatment),4572000000,8.345e-31,2505e46,1.86e-5,22,"Fragment-level GLMM; OR Wald CI, p via drop1 LRT (reported alongside Firth)"
+healed,Paired exact McNemar (within-parent),Scrape-only vs Airbrush-only discordant pairs,NA,NA,NA,0.0156,11,PRIMARY confirmatory (pseudoreplication-free): 7 discordant (scrape-only) vs 0 (airbrush-only)
+healed,Per-species day-28 Fisher exact,acropora: scrape vs airbrush (healed yes),Inf,NA,NA,0.00794,10,CONFIRMATION (model-free): airbrush 0/5 vs scrape 5/5 healed
+healed,Per-species day-28 Fisher exact,pocillopora: scrape vs airbrush (healed yes),Inf,NA,NA,1,6,CONFIRMATION (model-free): airbrush 0/3 vs scrape 1/3 healed
+healed,Per-species day-28 Fisher exact,porites: scrape vs airbrush (healed yes),Inf,NA,NA,0.4,5,CONFIRMATION (model-free): airbrush 1/3 vs scrape 2/2 healed

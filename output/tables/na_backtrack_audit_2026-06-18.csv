@@ -1,0 +1,15 @@
+species,treatment,coral_id,day,outcome,t_minus1,t_plus1,prior_value,rule_predicts,rescored_value,classification,separation_relevant
+pocillopora,dremel,6b,28,healed,incomplete,NA,NA,NA,yes,NA-fill: beyond rule (unresolved),TRUE
+pocillopora,dremel,6b,28,debris,no,NA,NA,NA,no,NA-fill: beyond rule (unresolved),FALSE
+acropora,airbrush,1a,23,healed,incomplete,incomplete,NA,incomplete,incomplete,NA-fill: matches bracketing rule,FALSE
+acropora,airbrush,1a,23,debris,yes,yes,NA,yes,yes,NA-fill: matches bracketing rule,FALSE
+porites,airbrush,2a,13,regenerated,no,no,NA,no,no,NA-fill: matches bracketing rule,FALSE
+porites,airbrush,2a,13,healed,no,no,NA,no,no,NA-fill: matches bracketing rule,FALSE
+porites,airbrush,4a,23,healed,incomplete,incomplete,NA,incomplete,incomplete,NA-fill: matches bracketing rule,FALSE
+porites,airbrush,4a,23,debris,yes,yes,NA,yes,yes,NA-fill: matches bracketing rule,FALSE
+pocillopora,dremel,6b,13,healed,incomplete,incomplete,NA,incomplete,incomplete,NA-fill: matches bracketing rule,FALSE
+pocillopora,dremel,6b,28,regenerated,yes,NA,NA,yes,yes,NA-fill: matches bracketing rule,FALSE
+pocillopora,dremel,9b,8,regenerated,no,no,NA,no,no,NA-fill: matches bracketing rule,FALSE
+pocillopora,dremel,9b,8,debris,no,no,NA,no,no,NA-fill: matches bracketing rule,FALSE
+acropora,dremel,10b,18,regenerated,no,yes,yes,NA,no,RE-SCORE (already-scored cell),FALSE
+pocillopora,dremel,6b,23,healed,incomplete,NA,incomplete,NA,yes,RE-SCORE (already-scored cell),TRUE

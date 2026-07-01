@@ -1,0 +1,7 @@
+.DS_Store
+**/.DS_Store
+Rplots.pdf
+*.Rproj
+.Rhistory
+.RData
+output/**/*.rds

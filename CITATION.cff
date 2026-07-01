@@ -1,0 +1,83 @@
+cff-version: 1.2.0
+title: >-
+  Analysis code and data for: Deep tissue removal in wounds facilitates
+  algal colonization and inhibits healing and regeneration in tropical corals
+message: >-
+  If you use this dataset or code, please cite it using the metadata from this
+  file. To cite the study itself, cite the article in `preferred-citation`.
+type: dataset
+authors:
+  - family-names: Seifert
+    given-names: Ashley W.
+    orcid: 'https://orcid.org/0000-0001-6576-3664'
+    affiliation: Department of Biology, University of Kentucky, Lexington, KY, USA
+    email: awseifert@uky.edu
+  - family-names: Brzezinski
+    given-names: Molly
+    orcid: 'https://orcid.org/0000-0002-0417-3406'
+    affiliation: >-
+      Department of Ecology, Evolution, and Marine Biology & Marine Science
+      Institute, University of California Santa Barbara, CA, USA
+    email: mollybrzezinski@ucsb.edu
+  - family-names: Osenberg
+    given-names: Craig W.
+    orcid: 'https://orcid.org/0000-0003-1918-7904'
+    affiliation: Odum School of Ecology, University of Georgia, Athens, GA, USA
+    email: osenberg@uga.edu
+  - family-names: Stier
+    given-names: Adrian C.
+    orcid: 'https://orcid.org/0000-0002-4704-4145'
+    affiliation: >-
+      Department of Ecology, Evolution, and Marine Biology, University of
+      California Santa Barbara, CA, USA
+    email: astier@ucsb.edu
+repository-code: 'https://github.com/adrianstier/seifert-et-al-wound-type-2026'
+url: 'https://github.com/adrianstier/seifert-et-al-wound-type-2026'
+abstract: >-
+  Analysis code and data for an experimental study of how wound type affects
+  coral healing and regeneration in three Indo-Pacific genera (Acropora,
+  Pocillopora, Porites). Scraping (tissue + skeletal damage) and airbrushing
+  (deep tissue removal, no skeletal injury) were used to mimic natural
+  corallivory. Scraped wounds regenerated rapidly, whereas airbrushing led to
+  algal colonization that delayed or prevented regeneration; Pocillopora
+  regenerated more slowly than Acropora and Porites. All statistical analyses
+  use generalized linear mixed models (GLMMs); complete separation is handled
+  with a penalized binomial GLMM using a weakly-informative Normal prior on
+  the fixed effects (Gelman et al. 2008). The repository includes the
+  reproducible analysis pipeline, all model outputs, publication-ready
+  figures, and documentation.
+keywords:
+  - coral
+  - wound healing
+  - regeneration
+  - algal colonization
+  - GLMM
+  - complete separation
+  - penalized likelihood
+  - corallivory
+  - Acropora
+  - Pocillopora
+  - Porites
+license: MIT
+version: 1.0.0
+# DOI assigned at Zenodo deposit time.
+preferred-citation:
+  type: article
+  title: >-
+    Deep tissue removal in wounds facilitates algal colonization and
+    inhibits healing and regeneration in tropical corals
+  status: submitted
+  year: 2026
+  authors:
+    - family-names: Seifert
+      given-names: Ashley W.
+      orcid: 'https://orcid.org/0000-0001-6576-3664'
+    - family-names: Brzezinski
+      given-names: Molly
+      orcid: 'https://orcid.org/0000-0002-0417-3406'
+    - family-names: Osenberg
+      given-names: Craig W.
+      orcid: 'https://orcid.org/0000-0003-1918-7904'
+    - family-names: Stier
+      given-names: Adrian C.
+      orcid: 'https://orcid.org/0000-0002-4704-4145'

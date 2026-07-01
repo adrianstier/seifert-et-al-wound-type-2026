@@ -1,0 +1,155 @@
+species,treatment,coral_id,day,regenerated,healed,debris,notes,use_image
+acropora,airbrush,10a,0,no,no,no,5-7 deep polyps may be intact,"yes, angle slightly off"
+acropora,airbrush,10a,3,no,no,yes,slight amount of debris present,"yes, angle slightly off"
+acropora,airbrush,10a,8,no,incomplete,yes,"necrotic tissue/debris present, wound border forming at lower edges","yes, angle slightly off"
+acropora,airbrush,10a,13,no,incomplete,yes,"necrotic tissue/debris present, wound border formed, slightly pink hue at edges","yes, angle slightly off"
+acropora,airbrush,10a,18,no,incomplete,yes,"necrotic tissue/debris present, wound border formed, slightly pink hue at edges","yes, pair with day 23"
+acropora,airbrush,10a,23,no,incomplete,yes,"wound border is clear, evidenced by pink hue, debris completely fills wound",yes
+acropora,airbrush,10a,28,no,incomplete,yes,"healing edge still advancing, pink hue present","yes, pair with day 23 and 18"
+acropora,airbrush,11a,0,no,no,no,"complete tissue removal, pink hue in tissue on left side",yes
+acropora,airbrush,11a,3,no,no,no,NA,yes
+acropora,airbrush,11a,8,no,no,yes,"necrotic tissue/debris, pink hue at wound edges, wound margin forming",yes
+acropora,airbrush,11a,13,no,incomplete,yes,"wound is sealed off from healthy tissue, pink hue present",yes
+acropora,airbrush,11a,18,no,incomplete,yes,wound border is clear and advancing towards center,yes
+acropora,airbrush,11a,23,no,incomplete,yes,"wound border progressing, pink hue still present in newly healed tissue",yes. slightly rotated
+acropora,airbrush,11a,28,no,incomplete,yes,newly healed tissue at border is well pigmented,yes
+acropora,airbrush,1a,0,no,no,no,"tissue near completely removed, 12-15 polyp retain pigment",yes
+acropora,airbrush,1a,3,no,no,yes,"slight amount of debris in wound, previously pigmented polyps lose coloration",no
+acropora,airbrush,1a,8,no,incomplete,yes,"more debris in wound area, slight thickening of skeleton at border/wound margin forming","no, substanial change in angle"
+acropora,airbrush,1a,13,no,incomplete,yes,"debris completely filled wound, wound border are present and moving in toward wound center",yes/no 1.25
+acropora,airbrush,1a,18,no,incomplete,yes,"wound size is substantially smaller, debris present, healing margins moving to center of wound",NA
+acropora,airbrush,1a,23,no,NA,NA,WRONG IMAGE? SIGNIFICANTLY DIFFERENT HEALING PROGRESSION,no
+acropora,airbrush,1a,28,no,incomplete,yes,"wound is very nearly healed, significant progression of healed tissue toward the center of wound",yes
+acropora,airbrush,5a,0,no,no,no,complete tissue removal,yes
+acropora,airbrush,5a,3,no,no,yes,versy scant amount of debris present in wound area ubiquitous,"yes, rotate angle"
+acropora,airbrush,5a,8,no,incomplete,yes,"scant amount of debris, evidence of tissue healing at wound edges",yes
+acropora,airbrush,5a,13,no,incomplete,yes,"wound borders become pronounced, heavier debris in wound area",yes
+acropora,airbrush,5a,18,no,incomplete,yes,"wound borders are clearly present, wound center with heavy debris",yes/no image must be rotated 180 degrees
+acropora,airbrush,5a,23,no,incomplete,yes,"healing borders are progressing, heavy debris at center",yes
+acropora,airbrush,5a,28,no,incomplete,yes,"healing borders are progressing, heavy debris at center",yes
+acropora,airbrush,8a,0,no,no,no,"highly rugose sample, difficult to delineate wound area, wound area appears completely debrided",no
+acropora,airbrush,8a,3,no,no,yes,"photo taken at different angle, necrotic tissue/debris present",no
+acropora,airbrush,8a,8,no,no,yes,slight amount of debris still present,no
+acropora,airbrush,8a,13,no,incomplete,yes,"pink hue at wound edges, clearly defined wound border, more debris in wound area",NA
+acropora,airbrush,8a,18,no,incomplete,yes,"pink hue at wound edges, clearly defined wound border, inner wound tissue is completely covered by debris/no living tissue",NA
+acropora,airbrush,8a,23,no,incomplete,yes,"pink hue at wound edges, clearly defined wound border, inner wound tissue is completely covered by debris/no living tissue",NA
+acropora,airbrush,8a,28,no,incomplete,yes,"pink hue is lessened from previous image, healed tissue border progressed but wound is not completely healed",NA
+pocillopora,airbrush,6a,0,no,no,no,"complete tissue removal, no skeletal damage","no, out of focus"
+pocillopora,airbrush,6a,3,no,no,no,"complete tissue removal, perhaps a scant amount ubiquitous debris",no
+pocillopora,airbrush,6a,8,no,no,yes,"ubiquitous debris present, difficult to see with angle change","no, angle is substantially changed"
+pocillopora,airbrush,6a,13,no,no,yes,WRONG IMAGE? SIGNIFICANTLY DIFFERENT HEALING PROGRESSION. Annotated as is,no
+pocillopora,airbrush,6a,18,no,incomplete,no,"pigmented coenosarc progressing at healing edges, scattered debris no longer present",no
+pocillopora,airbrush,6a,23,no,incomplete,no,pigmented coenosarc progressing at healing edges,yes/no with image D4
+pocillopora,airbrush,6a,28,no,incomplete,no,wound nearly completely healed,NA
+pocillopora,airbrush,7a,0,no,no,no,"Complete tissue removal, no skeletal damage, wound at growing end","no, angle is substantially changed"
+pocillopora,airbrush,7a,3,no,no,no,Complete tissue removal,"no, angle is substantially changed"
+pocillopora,airbrush,7a,8,no,no,yes,slight amount of debris present at wound center,"no, angle is substantially changed"
+pocillopora,airbrush,7a,13,no,incomplete,yes,"Outer polyps and coenosarc show signs of healing, debris and algae present at wound center",yes/no with previous image
+pocillopora,airbrush,7a,18,no,incomplete,yes,"ANGLE OF IMAGE SUBSTANTIALLY CHANGED, annotation still possible",no
+pocillopora,airbrush,7a,23,no,incomplete,yes,"coenosarc almost completely regained color except for wound center, small amount of debris still present",no
+pocillopora,airbrush,7a,28,no,incomplete,no,coenosarc almost completely regained color except for wound center,no
+pocillopora,airbrush,9a,0,no,no,no,"incomplete tissue removal, 10-15 polyps show color",NA
+pocillopora,airbrush,9a,3,no,no,no,tissue removal complete/only asymbiotic tissue present,"no, images are not standardized"
+pocillopora,airbrush,9a,8,no,no,yes,necrotic tissue/debris present,NA
+pocillopora,airbrush,9a,13,no,no,yes,necrotic tissue localized to center of wound,NA
+pocillopora,airbrush,9a,18,no,incomplete,yes,"necrotic tissue localized to center, outer polyps regaining color","yes, 0.63"
+pocillopora,airbrush,9a,23,no,incomplete,yes,"necrotic tissue localized to center, outer polyps regaining color","yes, 0.63"
+pocillopora,airbrush,9a,28,no,incomplete,yes,"necrotic tissue localized to center, outer polyps regaining color","yes, 0.63 is out of focus but is a good indicator"
+porites,airbrush,2a,0,no,no,no,"complete tissue removal, skeleton undamaged",yes
+porites,airbrush,2a,3,no,no,no,slight dark halo around wound site,yes
+porites,airbrush,2a,8,no,no,no,"very slight amount of debris in wound, halo around wound site darkens, wound site appears larger",yes
+porites,airbrush,2a,13,NA,NA,NA,IMAGE IS SIGNIFICANTLY DIFFERENT ANGLE THAN PREVIOUS,no
+porites,airbrush,2a,18,no,no,yes,"wound border are not present, debris is ubiquitous and it is difficult to delineate between healing tissue and debris",no
+porites,airbrush,2a,23,no,incomplete,yes,"debris is scattered, possibly pigment is returning to wound area",no
+porites,airbrush,2a,28,yes,yes,no,"very small amount of debris localized to a single polyp, wound area is largley re-pigmented",yes
+porites,airbrush,3a,0,no,no,no,complete tissue removal,yes
+porites,airbrush,3a,3,no,no,yes,"poor image angle, wound seems to have grown since day 0 image, very slight amount of debris in wound",no
+porites,airbrush,3a,8,no,no,yes,"debris present, wound edges become more clearly defined without healing",yes
+porites,airbrush,3a,13,no,incomplete,yes,"wound endges are defined and appear to be healing, debris present",no
+porites,airbrush,3a,18,no,incomplete,yes,"wound borders still present but less defined, algae and debris present",no
+porites,airbrush,3a,23,no,incomplete,yes,"image nearly rejected for analysis, appears similar to day 18 in quality",no
+porites,airbrush,3a,28,no,incomplete,yes,"wound covered in green algae more than debris, healed borders are less defined",no
+porites,airbrush,4a,0,no,no,no,possibly incomplete wound formation,no
+porites,airbrush,4a,3,no,no,yes,dark area of debris with white area in two islands of wound center,no
+porites,airbrush,4a,8,no,no,yes,"majority of wound area is pale, wound borders becoming pronounced",no
+porites,airbrush,4a,13,no,incomplete,yes,"border around wound forming, debris present",no
+porites,airbrush,4a,18,no,incomplete,yes,"wound border clearly present, wound covered completely in debris",no
+porites,airbrush,4a,23,no,NA,NA,WRONG IMAGE? SIGNIFICANTLY DIFFERENT HEALING PROGRESSION,no
+porites,airbrush,4a,28,no,incomplete,yes,"wound is healing at borders, significant debris still present",NA
+acropora,dremel,10b,0,no,no,no,"complete tissue removal, some skeletal damage",yes
+acropora,dremel,10b,3,no,no,no,tissue removed,"yes, angle slightly off"
+acropora,dremel,10b,8,no,incomplete,no,"3-4 polyps present in wound area, slight coenosarc coloration","yes, angle slightly off"
+acropora,dremel,10b,13,no,incomplete,no,coenosarc color returning,"yes, angle slightly off"
+acropora,dremel,10b,18,yes,incomplete,yes,"2 small clusters of debris in wound, no clear border, polyp coloration","yes, angle slightly off"
+acropora,dremel,10b,23,yes,yes,no,"debris no longer present, area nearly indistinguishable from healthy tissue",yes
+acropora,dremel,10b,28,yes,yes,no,tissue indistinguishable from healthy tissues,yes
+acropora,dremel,11b,0,no,no,no,polyps may be intact,yes
+acropora,dremel,11b,3,no,no,no,polyps appear intact and pigmented,yes
+acropora,dremel,11b,8,yes,incomplete,no,"coenosarc color returning, polyps retain color",yes. slightly rotated
+acropora,dremel,11b,13,yes,incomplete,no,"coenosarc color returning, polyps retain color",yes
+acropora,dremel,11b,18,yes,incomplete,no,"coenosarc color returning, polyps retain color, not much different than day 13","yes, slightly rotated"
+acropora,dremel,11b,23,yes,incomplete,no,tissue pigment is almost indistinguishable from healthy tissue,"yes, slightly rotated"
+acropora,dremel,11b,28,yes,yes,no,tissue appears completely healed and is almsot indistinguishable from healthy tissue,NA
+acropora,dremel,1b,0,no,no,no,"incomplete wounding, wound is scattered across several branches, skeletal damage present",yes
+acropora,dremel,1b,3,no,no,no,"skeleton appears jagged at edges, smooth in center, polyps at wound edge retain pigment",yes
+acropora,dremel,1b,8,no,incomplete,no,"coenosarc regains pigment, skeleton appears properly textured",yes
+acropora,dremel,1b,13,yes,yes,no,wound area completely repigmented and indistinguishable from healthy tissue,yes
+acropora,dremel,1b,18,yes,yes,no,wound area completely repigmented and indistinguishable from healthy tissue,yes
+acropora,dremel,1b,23,yes,yes,no,wound area completely repigmented and indistinguishable from healthy tissue,yes
+acropora,dremel,1b,28,yes,yes,no,wound area completely repigmented and indistinguishable from healthy tissue,yes
+acropora,dremel,5b,0,no,no,no,"complete wound created, slight skeletal damage indicated by skeletal slurry",yes
+acropora,dremel,5b,3,no,no,no,10-12 polyps are pigmented,"yes, angle slightly different"
+acropora,dremel,5b,8,yes,incomplete,no,"coenosarc regaining color, nearly all polyps in the wound area are pigmented","no, angle changed significantly"
+acropora,dremel,5b,13,yes,incomplete,no,"coenosarc still pale but nearly indistinguishable from surrounding healthy tissue, slight pink hue on two calyces",yes
+acropora,dremel,5b,18,yes,incomplete,no,"coenosarc still pale but nearly indistinguishable from surrounding healthy tissue, slight pink hue on two calyces",yes
+acropora,dremel,5b,23,yes,yes,no,coenosarc nearly completely healed,"no, angle changed significantly"
+acropora,dremel,5b,28,yes,yes,no,Wound are indistinguishable from surrounding tissue,"yes, use with day 23 image"
+acropora,dremel,8b,0,no,no,no,"skeleton damage indicated by fractured calyces, 1-2 polyps with pigment remaining, white skeletal slurry present",yes
+acropora,dremel,8b,3,no,no,no,"nearly complete tissue removal, 10-12 polyps appear present evidencd by pigment, coenosarc not regrown",yes
+acropora,dremel,8b,8,yes,incomplete,no,"coenosarc regaining color, all polyps in the wound area are pigmented",yes with slight alteration to image angle
+acropora,dremel,8b,13,yes,yes,no,"Coenosarc colored, healed tissue is slightly lighter than surrounding healthy tissue","yes/no, substantial translation of image is required but it shows good healing"
+acropora,dremel,8b,18,yes,yes,no,Tissue nearly indistinguishable from surrounding healthy tissue,yes with image rotation required
+acropora,dremel,8b,23,yes,yes,no,Tissue nearly indistinguishable from surrounding healthy tissue,"no, image is off center"
+acropora,dremel,8b,28,yes,yes,no,Tissue unchanged from previous image,NA
+pocillopora,dremel,6b,0,no,no,no,"incomplete/nonuniform wound created, intact polyps are present at wound center and small wounds are present at a distance from major wound, slight skeletal damage indicated by",no
+pocillopora,dremel,6b,3,no,no,no,nearly complete tissue healing likely due to scattered wound creation,no
+pocillopora,dremel,6b,8,no,incomplete,no,nearly complete tissue healing likely due to scattered wound creation,no
+pocillopora,dremel,6b,13,no,NA,NA,WRONG IMAGE? SIGNIFICANTLY DIFFERENT HEALING PROGRESSION,no
+pocillopora,dremel,6b,18,no,incomplete,yes,"slight amount of debris present, image is at a different angle making it difficult to analyze",no
+pocillopora,dremel,6b,23,yes,incomplete,no,"nearly completely healed, no debris present",no
+pocillopora,dremel,6b,28,NA,NA,NA,WRONG IMAGE? SIGNIFICANTLY DIFFERENT HEALING PROGRESSION,no
+pocillopora,dremel,7b,0,no,no,no,"incomplete/nonuniform wound created, intact polyps are present at wound center and small wounds are present at a distance from major wound",no
+pocillopora,dremel,7b,3,no,no,yes,"healing tissue shows signs of progression, slight amount of debris",no
+pocillopora,dremel,7b,8,no,incomplete,yes,"healing tissue shows signs of progression, slight amount of debris at one polyp",no
+pocillopora,dremel,7b,13,no,incomplete,yes,"healing tissue shows signs of progression, slight amount of debris at one polyp",no
+pocillopora,dremel,7b,18,no,incomplete,yes,"coenosarc nearly completely healed, one small debris spot at polyp present",no
+pocillopora,dremel,7b,23,no,incomplete,yes,"coenosarc nearly completely healed, one small debris spot at polyp present",no
+pocillopora,dremel,7b,28,no,incomplete,yes,WRONG IMAGE? CORRECT SAMPLE BUT SIGNIFICANTLY DIFFERENT HEALING PROGRESSION,no
+pocillopora,dremel,9b,0,no,no,no,"skeleton damage indicated by smoothed surface and white slurry, pink hue present on edges","yes, either size"
+pocillopora,dremel,9b,3,no,no,no,NA,"yes, either size"
+pocillopora,dremel,9b,8,NA,NA,NA,"INCORRECT IMAGE (ACTUALLY DEPICTS SAMPLE 10b), COULD NOT ANNOTATE",no
+pocillopora,dremel,9b,13,no,incomplete,no,coenosarc and outer polyps regaining color,"yes, either size"
+pocillopora,dremel,9b,18,no,incomplete,no,"coenosarc and outer polyps regaining color, dark black/grey polyp visible in center of wound",yes
+pocillopora,dremel,9b,23,no,incomplete,no,coenosarc and outer polyps regaining color,yes
+pocillopora,dremel,9b,28,no,incomplete,no,"polyps nearly recovered, coenosarc color recovered",yes
+porites,dremel,2b,0,no,no,no,"nearly complete tissue removal, skeletal damage present, skeletal slurry and some ""white dots"" present","yes, 1.25"
+porites,dremel,2b,3,no,no,yes,"some debris in wound, slight border around wound margin","yes, 1.25"
+porites,dremel,2b,8,no,incomplete,no,"calyx reformation, no more debris in wound area, ""white dots""","yes, 1.25"
+porites,dremel,2b,13,yes,incomplete,no,"calices reformed but chunky, ""white dots"", nearly all polyps have pigment","yes, 1.25"
+porites,dremel,2b,18,yes,incomplete,no,"calices reformed and edges are refined, wound are is almost indistinguishable from healthy tissue",yes
+porites,dremel,2b,23,yes,incomplete,no,"tissue nearly indistinguishable from healthy tissue, calices are still white/pronounced",yes
+porites,dremel,2b,28,yes,yes,no,tissue healed,yes
+porites,dremel,3b,0,no,no,no,"nearly complete tissue removal, skeletal damage present",yes
+porites,dremel,3b,3,no,no,no,"white skeletal slurry ""white dots"" present, pigment returns to border polyps",yes
+porites,dremel,3b,8,no,incomplete,no,"pigment progressively moves toward center, ""white dots"" present at wound border",yes
+porites,dremel,3b,13,yes,incomplete,no,"pigment continues to progress, calyces formed in center of wound area",no
+porites,dremel,3b,18,yes,incomplete,no,"central polyps lightly pigmented, wound is nearly indistinguishable from healthy tissue",yes
+porites,dremel,3b,23,yes,NA,NA,WRONG IMAGE? SIGNIFICANTLY DIFFERENT HEALING PROGRESSION. nudibranchs present,no
+porites,dremel,3b,28,yes,NA,NA,WRONG IMAGE? SIGNIFICANTLY DIFFERENT HEALING PROGRESSION,no
+porites,dremel,4b,0,no,no,no,complete tissue removal,yes
+porites,dremel,4b,3,no,no,no,NA,yes
+porites,dremel,4b,8,no,incomplete,no,"pigmented tissue present at wound border, ""white dots"" present at wound border, wound area begins shrinking but skeletal damage still present",yes
+porites,dremel,4b,13,yes,incomplete,no,"wound is visibly shriking from borders, calyx formation is more obvious",yes
+porites,dremel,4b,18,yes,incomplete,no,"skeletal formation continues, possibly more pigmented tissue in center of wound",yes/no exposure is very different from other imgaes
+porites,dremel,4b,23,yes,yes,no,"pigment present in all polyps, coenosarc present and pigmented, wound area nearly indistinguishable from healthy tissue",yes
+porites,dremel,4b,28,yes,yes,no,wound is indistinguishable from healthy tissue,yes

@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/coral-wound-moorea.jpg" width="100%" alt="A wounded Pocillopora colony on the reef at Mo'orea, French Polynesia">
+<img src="assets/coral-porites-moorea.jpg" width="100%" alt="Live Porites coral polyps, Mo'orea, French Polynesia">
 
-<sub><i>A wounded <b>Pocillopora</b> colony on the fore reef at Mo'orea, French Polynesia — pale tissue marks a healing wound against pigmented, intact coral.</i></sub>
+<sub><i>Live <b>Porites</b> — the focal coral of Experiment 2 — polyps extended across the colony surface. Mo'orea, French Polynesia.</i></sub>
 
 <h1>Coral wound type, healing &amp; regeneration</h1>
 
